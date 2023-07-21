@@ -1,0 +1,12 @@
+curl -X POST \                                                                                                                                   
+     -H "Content-Type: application/json" \
+     -d '{"name":"Elie2","request_limit": 1000}' \
+     http://localhost:8080/register
+
+
+curl http://localhost:8080/account/2StGV7O1jqCfTQUhoQfUdVrGu5T
+
+ curl -i -x \
+            http://admin:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjJTdEc2VkhLOGZzNnJWYXpEMnVidENMa2hCeSJ9.4UcjT-oGBi6TxX3PR0QmXfQi5YwKYbjoDtlwe67vYKM@localhost:8080 \
+            https://pokeapi.co/api/v2/pokemon/ditto
+
