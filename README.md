@@ -46,9 +46,9 @@ air .
 - [ ] Deployment instructions
 - [ ] Clustering
 
-### Join Us 🤝
+### Contributing
 
-Contributions are welcome.
+Contributions are welcome, Hyper Proxy is open source and free to use.
 
 ### License ⚖️
 
