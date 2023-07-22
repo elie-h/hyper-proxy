@@ -20,12 +20,31 @@ To begin with Hyper Proxy, follow the steps below:
 ```
 # Clone the repository
 https://github.com/elie-h/hyper-proxy
+
 # Navigate into the repository
 cd hyper-proxy
+
 # Install dependencies and run the app
 go get .
 go run main.go
+
+# Or use live reloading with:
+air .
 ```
+
+### TODO
+
+- [x] Basic implementation
+- [x] Admin endpoints
+- [ ] Tests
+- [ ] CI/CD
+- [ ] Request logging
+- [ ] Request data shipping (Origin, Latency, Attribution, Round Trip Times and Bytes Transferred.)
+- [ ] Rate limiting strategies
+- [ ] Admin authentication
+- [ ] Python client
+- [ ] Deployment instructions
+- [ ] Clustering
 
 ### Join Us 🤝
 
